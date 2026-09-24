@@ -11,25 +11,78 @@
 #     print()
 
 
-# selection sort
-l = [12, 68, 95, 41, 10, 71]
-print(l)
+# # selection sort
+# l = [12, 68, 95, 41, 10, 71]
+# print(l)
 
-def index_menor(index_partida,l):
-    imenor = index_partida
-    menor_elemento = l[imenor]
-    for i in range(imenor, len(l)):
-        if l[i] < menor_elemento:
-            menor_elemento = l[i]
-            imenor = i
-    return imenor
+# def index_menor(index_partida,l):
+#     imenor = index_partida
+#     menor_elemento = l[imenor]
+#     for i in range(imenor, len(l)):
+#         if l[i] < menor_elemento:
+#             menor_elemento = l[i]
+#             imenor = i
+#     return imenor
 
-for k in range(len(l)):
-    j = index_menor(k,l)
-    aux = l[j]
-    l[j] = l[k]
-    l[k] = aux
-    print(l)
+# for k in range(len(l)):
+#     j = index_menor(k,l)
+#     aux = l[j]
+#     l[j] = l[k]
+#     l[k] = aux
+#     print(l)
+
+
+
+
+
+#     bubble sort:
+# l = [12, 68, 95, 41, 25, 71]
+# print(l)
+
+# for j in range(len(l)-1,0,-1):
+#     for i in range(j):
+#         if l[i] > l[i+1]:
+#             aux = l[i]
+#             l[i] = l[i + 1]
+#             l[i + 1] = aux
+#         print(l)
+#     print()
+
+
+# # selection sort
+# l = [12, 68, 95, 41, 10, 71]
+# print(l)
+
+# def index_menor(index_partida,l):
+#     imenor = index_partida
+#     menor_elemento = l[imenor]
+#     for i in range(imenor, len(l)):
+#         if l[i] < menor_elemento:
+#             menor_elemento = l[i]
+#             imenor = i
+#     return imenor
+
+# for k in range(len(l)):
+#     j = index_menor(k,l)
+#     aux = l[j]
+#     l[j] = l[k]
+#     l[k] = aux
+#     print(l)
+
+# 	# insertion sort
+# l = [10, 9, 8, 7]
+# print(l)
+
+# for i in range(1, len(l)):
+#     aux = l[i] # aux -> 11
+#     j = i - 1 # j -> 2
+#     while j >= 0 and l[j] > aux:
+#         l[j+1] = l[j]
+#         j = j - 1
+#         print(l)
+#     l[j+1] = aux
+#     print(l)
+#     print()
 
 
 # Insertion sort
